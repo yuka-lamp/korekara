@@ -3,8 +3,7 @@ body {
   font-size: 100%;
   letter-spacing: .1rem;
   position: relative;
-  text-transform: uppercase;
-  color: #000
+  color: #000 !important
 }
 
 main {
@@ -12,21 +11,26 @@ main {
 }
 
 p {
+  font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
   font-size: 14px;
   letter-spacing: .1rem;
   line-height: 2.1
 }
 
 h2, h3 {
+  font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 22px
+  font-size: 22px !important;
+  font-weight: bold !important;
+  line-height: 2.4rem !important
 }
 
 h3 {
-  font-size: 18px
+  font-size: 18px !important;
+  font-weight: bold !important;
 }
 
 a {
@@ -327,15 +331,21 @@ ul {
 
 .bg-gray {
   background: #F9F7F7;
+  padding: 4rem 0 3rem 0
 }
 
 /*------------------------------------------------------
 ボタン
 ------------------------------------------------------*/
+.btn {
+  text-align: center;
+  width: 100%;
+  margin-top: 2rem
+}
 .btn a, #contact-form button, #contact-form input[type="submit"] {
   box-shadow: none;
-  background: #E95283;
-  color: #fff;
+  background: #FCE4EB;
+  color: #E95283;
   position: relative;
   min-width: 300px;
   transition: .5s;
@@ -354,7 +364,7 @@ ul {
   content: '';
   width: 30px;
   height: 3px;
-  background-image: url(../images/common/dot.png);
+  background-image: url(../images/common/btn_dot.png);
   background-size: cover;
   position: absolute;
   top: 50%;
@@ -379,28 +389,38 @@ ul {
 /*------------------------------------------------------
 タイトル
 ------------------------------------------------------*/
+span.maker {
+  background: linear-gradient(transparent 60%, #FFF785 40%);
+  font-weight: bold;
+}
+
+.ttl-img {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: -4.5rem;
+}
+
+.ttl-img-bg {
+  text-align: center;
+  background: #F9F7F7;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  padding: 20px
+}
+
+.ttl-img p {
+  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px
+}
+
 .ttl2 {
-  font-size: 2rem
-}
-
-.ttl2 span {
-  border-bottom: solid 3px #7FC600;
-  padding-bottom: 1px
-}
-
-.ttl3 h2 {
-  text-transform: uppercase;
-  border-right: solid 3px #7FC600;
-  padding-right: 2rem;
-  font-size: 40px;
-  display: inline-block;
-  margin: 0
-}
-
-.ttl3 p {
-  display: inline-block;
-  margin-left: 2rem;
-  line-height: 1.5rem
+  text-align: center;
 }
 
 @media(max-width:480px) {

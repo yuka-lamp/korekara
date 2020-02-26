@@ -2,7 +2,8 @@
 campaign
 ---------------------------------------*/
 #campaign {
-  padding: 3rem 0
+  padding: 3rem 0;
+  background: #F9F7F7;
 }
 
 #campaign>.wrap>div {
@@ -33,6 +34,7 @@ campaign
 }
 
 #campaign>.wrap>div>.txt-wrap p.money {
+  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
   font-size: 1rem;
   font-weight: bold;
   margin: 0
@@ -115,7 +117,12 @@ CTA
 }
 
 #cta .cta-bg .btn a {
-  background: #41A9CC
+  background: #41A9CC;
+  color: #fff
+}
+
+#cta .btn a::after {
+  background-image: url(../images/common/dot.png);
 }
 
 @media(min-width:1025px) {

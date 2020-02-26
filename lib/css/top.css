@@ -1,0 +1,90 @@
+/*---------------------------------------
+#top-about
+---------------------------------------*/
+
+#top-about {
+
+}
+
+#top-about .img-wrap {
+  width: 100%;
+  margin-top: 2rem
+}
+
+#top-about .img-wrap img {
+  width: 100%;
+}
+
+@media(min-width:1025px) {
+  #top-about .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #top-about .left {
+    width: 38%;
+  }
+  #top-about .right {
+    width: 55%;
+  }
+}
+
+/*---------------------------------------
+#top-service
+---------------------------------------*/
+
+#top-service ul {
+  margin: 0;
+  padding: 0
+}
+
+#top-service ul li .img-wrap {
+  width: 100%;
+}
+
+#top-service ul li .img-wrap img {
+  width: 100%;
+}
+
+#top-service .slick-slide img {
+  width: 100%;
+  position: relative;
+}
+
+#top-service .slide-arrow {
+  position: absolute;
+  top: 50%;
+}
+
+#top-service .next-arrow {
+  right: 0
+}
+
+#top-service .txt-wrap {
+  background: #fff;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  margin: 2rem 0 0 0;
+  width: 345px
+}
+
+#top-service .txt-wrap p {
+  margin-bottom: 0;
+  position: relative;
+  line-height: 1.4rem;
+}
+
+#top-service .txt-wrap p::before {
+  content: url('../images/top/conma.png');
+  position: absolute;
+  top: -2.5rem;
+  left: 0
+}
+
+
+@media(min-width:1025px) {
+  #top-service .txt-wrap {
+    width: 500px;
+    margin: 2rem auto 0 auto
+  }
+}

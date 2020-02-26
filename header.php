@@ -9,10 +9,13 @@ $wp_url = get_template_directory_uri(); ?>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/jquery.fatNav.min.css">
+<link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/slick.css"/>
+<link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/slick-theme.css"/>
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/header.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/footer.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/common.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/sub-mv.css">
+<link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/top.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/about.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/testinfo.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/voice.css">
