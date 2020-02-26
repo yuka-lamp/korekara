@@ -1,0 +1,260 @@
+/*---------------------------------------
+campaign
+---------------------------------------*/
+#campaign {
+  padding: 3rem 0
+}
+
+#campaign>.wrap>div {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+#campaign>.wrap>div::after {
+  content: url('');
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#campaign>.wrap>div>.img-wrap {
+  border-radius: 10px 10px 0 0
+}
+
+#campaign>.wrap>div>.txt-wrap {
+  padding: 1rem
+}
+
+#campaign>.wrap>div>.txt-wrap h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0
+}
+
+#campaign>.wrap>div>.txt-wrap p.money {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0
+}
+
+#campaign>.wrap>div>.txt-wrap p span {
+  font-size: 2.5rem;
+  color: #E95283;
+  margin: 0 10px 0 5px
+}
+
+#campaign>.wrap>div>.txt-wrap p.dur {
+  margin: 0
+}
+
+@media(min-width:1025px) {
+  #campaign>.wrap>div {
+    width: 80%;
+    margin:  0 auto
+  }
+
+  #campaign>.wrap>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #campaign>.wrap>div>.img-wrap {
+    width: 40%!important;
+    height: 233px!important;
+  }
+
+  #campaign>.wrap>div>.img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #campaign>.wrap>div>.txt-wrap {
+    width: 60%;
+    padding: 2rem
+  }
+}
+
+/*---------------------------------------
+CTA
+---------------------------------------*/
+#cta .cta-bg {
+  background-image: url('../images/footer/bg_cta_sp.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 520px;
+  padding: 1.4rem 0;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+
+#cta .cta-bg .img-wrap {
+  width: 180px;
+  margin: 0 auto;
+}
+
+#cta .cta-bg .img-wrap img {
+  width: 100%;
+}
+
+#cta .cta-bg p {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .7);
+  line-height: 1.3rem
+}
+
+#cta .cta-bg .btn {
+  position: absolute;
+  bottom: 1.6rem;
+  left: 0;
+  width: 100%;
+}
+
+#cta .cta-bg .btn a {
+  background: #41A9CC
+}
+
+@media(min-width:1025px) {
+  #cta .cta-bg {
+    background-image: url('../images/footer/bg_cta_pc.png');
+    background-size: cover;
+    background-position: center;
+    height: 290px;
+    width: 100%;
+    position: relative;
+  }
+
+  #cta .cta-bg .contant {
+    width: 50%;
+    position: absolute;
+    right: 0
+  }
+
+  #cta .cta-bg p {
+    margin-top: 1rem
+  }
+
+  #cta .cta-bg .contant .btn {
+    position: relative;
+    margin-top: 2rem;
+  }
+}
+
+/*---------------------------------------
+footer
+---------------------------------------*/
+footer ul {
+  margin: 0;
+  padding: 0
+}
+
+footer ul li a {
+  padding: 1rem 0;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer ul:nth-child(1) {
+  background: #E95283;
+}
+
+footer ul:nth-child(1) li {
+  border-bottom: 2px solid #fff;
+}
+
+footer ul:nth-child(1) li a {
+  color: #fff;
+}
+
+footer ul:nth-child(2) {
+  background: #F9F7F7;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+footer ul:nth-child(2) li {
+  width: 50%;
+  border-right: 2px solid #fff;
+}
+
+footer ul:nth-child(2) li a {
+  color: #000
+}
+
+footer ul:nth-child(3) li {
+  position: relative;
+  display: inline-block;
+}
+
+footer ul:nth-child(3) li a {
+  display: block;
+  font-size: .9rem;
+  color: #000;
+  padding: 0 2rem 0 0
+}
+
+footer ul:nth-child(3) li::after {
+  content: url('../images/common/arrow_p.png');
+  position: absolute;
+  top: 2px;
+  right: 10px
+}
+
+@media(min-width:1025px) {
+  footer {
+    background: #F9F7F7;
+  }
+
+  footer .footer-top {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 3rem
+  }
+
+  footer ul:nth-child(1), footer ul:nth-child(2) {
+    background-color: transparent !important;
+  }
+
+  footer ul:nth-child(2) {
+    margin-top: 1rem
+  }
+
+  footer ul:nth-child(1) li, footer ul:nth-child(2) li {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    padding: 0 1.5rem 0 0;
+    border: none;
+  }
+
+  footer ul:nth-child(1) li a, footer ul:nth-child(2) li a {
+    color: #000;
+    padding: 0
+  }
+
+  footer ul:nth-child(1) li::after, footer ul:nth-child(2) li::after {
+    content: '／';
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: normal;
+  }
+
+  footer ul:nth-child(3) {
+    margin: 2rem 0 0 0
+  }
+}
+
+footer small {
+  display: block;
+  background: #000;
+  text-align: center;
+  width: 100%;
+  padding: 5px 0;
+  color: #fff;
+}

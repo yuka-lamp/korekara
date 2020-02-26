@@ -9,7 +9,6 @@ $wp_url = get_template_directory_uri(); ?>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/jquery.fatNav.min.css">
-<link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/style.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/header.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/footer.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/common.css">
@@ -42,7 +41,7 @@ $wp_url = get_template_directory_uri(); ?>
         <nav class="gnav">
           <div class="gnav__wrap">
             <ul class="gnav__menu">
-              <li><a href="https://elearning.ko-re-ka-ra.com/korekara/user/hoiku" target="_blank"><img src="<?php echo $wp_url ?>/lib/images/header/login-sp.png" alt="人のアイコン">会員の方はこちら</a></li>
+              <li><a href="https://elearning.ko-re-ka-ra.com/korekara/user/hoiku"><img src="<?php echo $wp_url ?>/lib/images/header/login-sp.png" alt="人のアイコン">会員の方はこちら</a></li>
               <li><a href="https://kyoshin-korekara.etudes.jp/jp/top/dashboard" target="_blank"><img src="<?php echo $wp_url ?>/lib/images/header/app-sp.png" alt="お申し込みのアイコン">お申し込み</a></li>
             </ul>
             <ul class="gnav__menu">
@@ -77,7 +76,7 @@ $wp_url = get_template_directory_uri(); ?>
         <li><a href="<?php echo $home ?>/contact">contact<span>お問い合わせ</span></a></li>
       </ul>
       <ul>
-        <li><a href="https://elearning.ko-re-ka-ra.com/korekara/user/hoiku" target="_blank"><img src="<?php echo $wp_url ?>/lib/images/header/login-pc.png" alt="人のアイコン">ログイン</a></li>
+        <li><a href="https://elearning.ko-re-ka-ra.com/korekara/user/hoiku"><img src="<?php echo $wp_url ?>/lib/images/header/login-pc.png" alt="人のアイコン">ログイン</a></li>
         <li><a href="https://kyoshin-korekara.etudes.jp/jp/top/dashboard" target="_blank"><img src="<?php echo $wp_url ?>/lib/images/header/app-pc.png" alt="お申し込みのアイコン">お申し込み</a></li>
       </ul>
     </div>
