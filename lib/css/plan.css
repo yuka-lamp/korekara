@@ -1,0 +1,153 @@
+/*---------------------------------------
+#plan
+---------------------------------------*/
+#plan ul li {
+  background-image: url('../images/plan/plan01_bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 1rem
+}
+
+#plan ul li .txt-wrap {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  text-align: right;
+}
+
+#plan ul li::after {
+  content: url('../images/plan/plan_fix_01.png');
+  position: absolute;
+  bottom: 10px;
+  right: 10px
+}
+
+#plan ul li .txt-wrap h3 {
+  font-size: 22px !important;
+  color: #41A9CC;
+  border-top: 1px solid #41A9CC;
+  border-bottom: 1px solid #41A9CC;
+  padding: .5rem 0;
+  margin: 1rem 1rem 0 1rem;
+}
+
+#plan ul li .txt-wrap p {
+  padding: 0 1rem;
+  margin: 0;
+  color: #000;
+}
+
+#plan ul li .txt-wrap p span {
+  padding: 0 5px;
+  color: #41A9CC;
+  font-size: 20px;
+  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+}
+
+#plan ul li .txt-wrap p:first-child {
+  width: 100%;
+  background: #41A9CC;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+#plan ul li .txt-wrap p:last-child {
+  margin: -.5rem 0 .5rem 0;
+}
+
+/*--プラン02--*/
+#plan ul li:nth-child(2) {
+  background-image: url('../images/plan/plan02_bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#plan ul li:nth-child(2)::after {
+  content: url('../images/plan/plan_fix_02.png');
+  left: 10px;
+  right: auto;
+}
+
+#plan ul li:nth-child(2) .txt-wrap {
+  right: 10px;
+  left: auto;
+}
+
+#plan ul li:nth-child(2) .txt-wrap h3 {
+  font-size: 22px !important;
+  color: #E95283;
+  border-top: 1px solid #E95283;
+  border-bottom: 1px solid #E95283;
+  padding: .5rem 0;
+  margin: 1rem 1rem 0 1rem;
+}
+
+#plan ul li:nth-child(2) .txt-wrap p span {
+  padding: 0 5px;
+  color: #E95283;
+  font-size: 20px;
+  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+}
+
+#plan ul li:nth-child(2) .txt-wrap p:first-child {
+  width: 100%;
+  background: #E95283;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*--プラン02終了--*/
+@media(min-width:1025px) {
+  #plan ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #plan ul li {
+    width: 49%;
+  }
+
+  #plan ul li:nth-child(2)::after {
+    right: 10px;
+    left: auto;
+  }
+
+  #plan ul li:nth-child(2) .txt-wrap {
+    left: 10px;
+    right: auto;
+  }
+}
+
+/*---------------------------------------
+#flow
+---------------------------------------*/
+.flow.ttl-img {
+  margin: -2rem 0 0 0
+}
+#flow ul li {
+  margin-bottom: 2rem
+}
+
+#flow ul li p {
+  line-height: 1.2rem
+}
+
+@media(min-width:1025px) {
+  #flow ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #flow ul li {
+    width: 30%
+  }
+}
