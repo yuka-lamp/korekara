@@ -1,5 +1,5 @@
 body {
-  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
   font-size: 100%;
   letter-spacing: .1rem;
   position: relative;
@@ -348,6 +348,7 @@ ul {
   margin-top: 2rem
 }
 .btn a, #contact-form button, #contact-form input[type="submit"] {
+  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
   box-shadow: none;
   background: #FCE4EB;
   color: #E95283;
