@@ -47,6 +47,11 @@ li>a {
 
 ul {
   list-style: none;
+  padding: 0
+}
+
+.img-wrap, .img-wrap img {
+  width: 100%;
 }
 
 /*------------------------------------------------------
@@ -394,23 +399,26 @@ span.maker {
   font-weight: bold;
 }
 
+.txt-c {
+  text-align:center;
+}
+
 .ttl-img {
   display: block;
   width: 100%;
   text-align: center;
-  position: relative;
-  bottom: -4.5rem;
+  text-align: center;
 }
 
 .ttl-img-bg {
-  text-align: center;
   background: #F9F7F7;
   border-radius: 100px;
   display: inline-block;
-  margin: 0 auto;
   width: 140px;
   height: 140px;
-  padding: 20px
+  padding: 20px;
+  position: relative;
+  bottom: -4.5rem;
 }
 
 .ttl-img p {

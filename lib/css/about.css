@@ -1,0 +1,186 @@
+/*---------------------------------------
+#point
+---------------------------------------*/
+#point .ttl {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#point .ttl.pc-only {
+  display: none !important;
+}
+
+#point .ttl .num {
+  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  font-size: 4rem;
+  color: #F9F7F7;
+  width: 25%;
+  margin: 0;
+  display: unset;
+}
+
+#point .ttl h3 {
+  width: 75%;
+  display: inline-block;
+}
+
+#point .txt-wrap p {
+  margin-top: 2rem;
+  line-height: 1.4rem
+}
+
+#point .img-wrap {
+  height: 170px;
+  width: 100%
+}
+
+#point ul li:nth-child(1) .img-wrap {
+  background: url('../images/about/point_01_sp.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#point ul li:nth-child(2) .img-wrap {
+  background: url('../images/about/point_02_sp.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#point ul li:nth-child(3) .img-wrap {
+  background: url('../images/about/point_03_sp.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media(min-width:1025px) {
+  #point .ttl.sp-only {
+    display: none !important;
+  }
+
+  #point .ttl.pc-only {
+    display: flex !important;
+  }
+
+  #point ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #point ul li:nth-child(2) {
+    flex-flow: row-reverse;
+  }
+
+  #point .img-wrap {
+    width: 50% !important;
+  }
+
+  #point ul li:nth-child(2) .img-wrap {
+    margin: 0 0 0 10%
+  }
+
+  #point .txt-wrap {
+    width: 40%;
+    display: inline-block;
+  }
+
+  #point .img-wrap {
+    height: 326px;
+    width: 100%
+  }
+
+  #point ul li:nth-child(1) .img-wrap {
+    background: url('../images/about/point_01_sp.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #point ul li:nth-child(2) .img-wrap {
+    background: url('../images/about/point_02_sp.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #point ul li:nth-child(3) .img-wrap {
+    background: url('../images/about/point_03_sp.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/*---------------------------------------
+#feature
+---------------------------------------*/
+#feature .txt-c {
+  text-align: center;
+  margin: 0;
+}
+
+#feature ul li h3 {
+  text-align: center;
+  margin: 2rem 0
+}
+
+@media(min-width:1025px) {
+  #feature ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  #feature ul li {
+    width: 30%
+  }
+}
+
+/*---------------------------------------
+#teacher
+---------------------------------------*/
+
+#teacher ul li {
+  background: #DCE9F4;
+  border-radius: 10px;
+  padding: 1rem 10px;
+  margin: 0 0 1rem 0
+}
+
+#teacher .img-wrap {
+  width: 30%
+}
+
+#teacher .txt-wrap {
+  width: 66%
+}
+
+#teacher .txt-wrap h3 {
+  font-size: 22px!important;
+}
+
+#teacher .txt-wrap h3 span {
+  font-size: 1rem!important;
+  font-weight: normal!important
+}
+
+#teacher .txt-wrap p {
+  line-height: 1.2rem;
+  margin: 0
+}
+
+
+@media(min-width:1025px) {
+  #teacher ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #teacher ul li {
+    width: 49%;
+    align-items: center;
+  }
+  #teacher .img-wrap {
+    width: 20%
+  }
+
+  #teacher .txt-wrap {
+    width: 76%
+  }
+}
