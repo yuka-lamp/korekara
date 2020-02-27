@@ -40,7 +40,7 @@ $wp_url = get_template_directory_uri(); ?>
   <div id="sp-header">
     <div class="header-wrap">
       <div class="content">
-        <a href="<?php echo $home ?>"><img class="logo" src="<?php echo $wp_url ?>/lib/images/header/logo.png" alt="これから…のロゴ"></a>
+        <a href="<?php echo $home ?>"><img class="logo" src="<?php echo $wp_url ?>/lib/images/header/logo.png" alt="これから保育士のロゴ"></a>
       </div>
     </div>
     <div class="fat-nav">
@@ -52,7 +52,7 @@ $wp_url = get_template_directory_uri(); ?>
               <li><a href="https://kyoshin-korekara.etudes.jp/jp/top/dashboard" target="_blank"><img src="<?php echo $wp_url ?>/lib/images/header/app-sp.png" alt="お申し込みのアイコン">お申し込み</a></li>
             </ul>
             <ul class="gnav__menu">
-              <li><a href="<?php echo $home ?>/about">about<span>これから…とは</span></a></li>
+              <li><a href="<?php echo $home ?>/about">about<span>これから保育士とは</span></a></li>
               <li><a href="<?php echo $home ?>/testinfo">testinfo<span>試験情報</span></a></li>
               <li><a href="<?php echo $home ?>/testinfo#schedule">schedule<span>合格スケジュール</span></a></li>
               <li><a href="<?php echo $home ?>/voice">voice<span>合格者の声</span></a></li>
@@ -71,10 +71,10 @@ $wp_url = get_template_directory_uri(); ?>
   <nav id="pc-header" class="flex pc-only">
     <div class="content">
       <div class="img-wrap">
-        <a href="<?php echo $home ?>"><img class="logo" src="<?php echo $wp_url ?>/lib/images/header/logo.png" alt="これから…のロゴ"></a>
+        <a href="<?php echo $home ?>"><img class="logo" src="<?php echo $wp_url ?>/lib/images/header/logo.png" alt="これから保育士のロゴ"></a>
       </div>
       <ul>
-        <li><a href="<?php echo $home ?>/about">about<span>これから…とは</span></a></li>
+        <li><a href="<?php echo $home ?>/about">about<span>これから保育士とは</span></a></li>
         <li><a href="<?php echo $home ?>/testinfo">testinfo<span>試験情報</span></a></li>
         <li><a href="<?php echo $home ?>/testinfo#schedule">schedule<span>合格スケジュール</span></a></li>
         <li><a href="<?php echo $home ?>/voice">voice<span>合格者の声</span></a></li>

@@ -13,7 +13,7 @@ get_header(); ?>
 <section id="article" class="mt-3">
   <div class="wrap">
     <ul>
-      <li><a href="<?php echo $home ?>/about">これから…とは</a></li>
+      <li><a href="<?php echo $home ?>/about">これから保育士とは</a></li>
       <li><a href="<?php echo $home ?>/testinfo">試験情報</a></li>
       <li><a href="<?php echo $home ?>/schedule">合格スケジュール</a></li>
       <li><a href="<?php echo $home ?>/voice">受講者の声</a></li>

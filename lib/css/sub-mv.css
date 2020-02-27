@@ -39,7 +39,7 @@
 
 #sub-mv.plan {
   background: url('../images/plan/mv/mv.png');
-  background-position: right;
+  background-position: center;
   background-size: cover;
 }
 
@@ -111,7 +111,7 @@
   }
 
   #sub-mv .img-wrap {
-    width: 70%;
+    width: 67%;
     height: 380px;
   }
 
@@ -125,7 +125,7 @@
   #sub-mv .ttl {
     position: relative;
     bottom: 2rem;
-    width: 30%;
+    width: 33%;
     height: 380px;
     display: flex;
     align-items: flex-end;

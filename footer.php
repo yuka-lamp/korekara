@@ -38,7 +38,7 @@ $wp_url = get_template_directory_uri(); ?>
         <div class="img-wrap">
           <img src="<?php echo $wp_url ?>/lib/images/footer/logo_fff.png" alt="白のロゴ">
         </div>
-        <p>働く女性のキャリアアップを<br>応援する「これから…」</p>
+        <p>働く女性のキャリアアップを<br>応援する「これから保育士」</p>
         <div class="btn">
           <a href="https://kyoshin-korekara.etudes.jp/jp/top/dashboard">今すぐ受講！</a>
         </div>
@@ -53,7 +53,7 @@ $wp_url = get_template_directory_uri(); ?>
 <footer>
   <div class="footer-top">
     <ul>
-      <li><a href="<?php echo $home ?>/about">これから…とは</a></li>
+      <li><a href="<?php echo $home ?>/about">これから保育士とは</a></li>
       <li><a href="<?php echo $home ?>/testinfo">試験情報</a></li>
       <li><a href="<?php echo $home ?>/testinfo#schedule">合格スケジュール</a></li>
       <li><a href="<?php echo $home ?>/voice">合格者の声</a></li>

@@ -19,7 +19,7 @@ get_header(); ?>
       <div class="ttl-wrap">
         <div class=""><p>月々1,980円〜</p></div>
         <div class=""><p>はじめられる</p></div>
-        <div class=""><p>本格資格講座</p></div>
+        <div class=""><p>保育士試験対策講座</p></div>
       </div>
     </div>
   </div>
