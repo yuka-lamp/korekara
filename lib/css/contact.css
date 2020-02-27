@@ -24,7 +24,6 @@
 
 #contact-form input, #contact-form textarea {
   display: block;
-  margin-bottom: 1rem;
 }
 
 #contact-form input, #contact-form textarea {
@@ -59,11 +58,30 @@
 
 #contact-form label {
   width: 100%;
-  margin: 0 !important
+  margin: 0 !important;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1rem
 }
 
 #contact-form p {
   margin-bottom: 0
+}
+
+input[type=text], textarea, input[type=email] {
+  outline: none;
+  border: 1px solid #aaa;
+}
+
+#contact-form {
+  background: #F9F7F7
+}
+
+#contact-form input[type="submit"] {
+  background: #E95283;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 /*--------------------------------------------レスポンシブ*/
