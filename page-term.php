@@ -3,6 +3,13 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
+<section id="page-ttl">
+  <div class="wrap">
+    <p>- term -</p>
+    <h2>利用規約</h2>
+  </div>
+</section>
+
 <section id="article" class="pt-5 mb-3">
   <div class="wrap">
     <p>本規約は、株式会社京進（以下「当社」といいます。）がインターネット上で運営するｅラーニングサービス（以下「本サービス」といいます。）について、本サービスの利用者（以下「利用者」といいます。）が、本サービスを利用するにあたっての利用者および本サービスの利用を申込む者（以下「利用申込者」といいます。）の権利および義務について規定するものです。

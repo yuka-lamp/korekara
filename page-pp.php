@@ -3,6 +3,13 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
+<section id="page-ttl">
+  <div class="wrap">
+    <p>- privacy Policy -</p>
+    <h2>プライバシーポリシー</h2>
+  </div>
+</section>
+
 <section id="article" class="pt-5 mb-3">
   <div class="wrap">
     <p>株式会社京進（以下「当社」といいます）が運営するｅラーニングサービス（以下「当サービス」といいます）において取扱うお客様の個人情報の重要性を認識し、適切に管理・保護していくことは、当社の重要な責務であると考えております。個人情報の適切な取扱い及び管理に努めることによりお客様の信頼を一層確かなものにすることを目指します。

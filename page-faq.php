@@ -3,6 +3,13 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
+<section id="page-ttl">
+  <div class="wrap">
+    <p>- faq -</p>
+    <h2>よくあるご質問</h2>
+  </div>
+</section>
+
 <section id="faq" class="sec">
   <div class="wrap">
     <div class="">

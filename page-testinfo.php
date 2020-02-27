@@ -3,6 +3,13 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
+<section id="page-ttl">
+  <div class="wrap">
+    <p>- testinfo -</p>
+    <h2>試験情報</h2>
+  </div>
+</section>
+
 <section id="info" class="mt-3">
   <div class="pnk_bg pb-2">
     <div class="wrap">

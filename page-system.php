@@ -3,7 +3,37 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
-<section id="system-about-01" class="pt-4 mb-3">
+<section id="page-ttl">
+  <div class="wrap">
+    <p>- system -</p>
+    <h2>機能紹介</h2>
+  </div>
+</section>
+
+<section id="page-ttl" class="about">
+  <div class="wrap">
+    <p>- system -</p>
+    <h2>機能紹介</h2>
+  </div>
+</section>
+
+<section id="sub-mv" class="plan">
+  <div class="flex">
+    <div class="img-wrap pc-only">
+      <img src="<?php echo $wp_url ?>/lib/images/system/mv/mv.png" alt="メインビジュアル">
+    </div>
+    <div class="ttl">
+      <div class="ttl-wrap">
+        <div class=""><p>スキマ時間で</p></div>
+        <div class=""><p>効率的に合格へ導く</p></div>
+        <div class=""><p>オリジナル教材</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="system-about-01" class="pt-4 mb-5">
   <div class="wrap">
     <p class="txt-c">これまでの学習ノウハウを生かした</p>
     <h2 class="ttl2"><span class="maker">脳科学に基づく得点UP学習法！</span></h2>

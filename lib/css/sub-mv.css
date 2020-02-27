@@ -37,6 +37,14 @@
   margin-top: 2rem
 }
 
+#sub-mv.plan {
+  background: url('../images/plan/mv/mv.png');
+}
+
+#sub-mv.system {
+  background: url('../images/system/mv/mv.png');
+}
+
 #sub-mv::after {
   content: '';
   width: 110px;
@@ -73,7 +81,7 @@
   #sub-mv {
     background: transparent !important;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 5rem auto;
     display: block;
     height: 380px
   }
@@ -85,7 +93,7 @@
 
   #sub-mv .flex {
     display: flex;
-    align-items: baseline;
+    align-items: center;
   }
 
   #sub-mv .img-wrap {
@@ -101,8 +109,15 @@
   #sub-mv .ttl {
     position: relative;
     bottom: 2rem;
-    left: -2rem;
+    width: 30%;
+    height: 380px;
+    display: flex;
+    align-items: flex-end;
   }
+
+  #sub-mv .ttl .ttl-wrap {
+  }
+
   #sub-mv .ttl p {
     font-size: 32px;
     line-height: 50px;

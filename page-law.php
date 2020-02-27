@@ -3,6 +3,13 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
+<section id="page-ttl">
+  <div class="wrap">
+    <p>- law -</p>
+    <h2>特定商取引法に基づく表記</h2>
+  </div>
+</section>
+
 <section id="article" class="pt-5 mb-3">
   <div class="wrap">
     <dl>

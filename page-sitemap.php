@@ -3,6 +3,13 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
+<section id="page-ttl">
+  <div class="wrap">
+    <p>- sitemap -</p>
+    <h2>サイトマップ</h2>
+  </div>
+</section>
+
 <section id="article" class="mt-3">
   <div class="wrap">
     <ul>

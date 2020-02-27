@@ -3,7 +3,29 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
-<section id="plan" class="mt-3">
+<section id="page-ttl" class="about">
+  <div class="wrap">
+    <p>- plan -</p>
+    <h2>料金プラン</h2>
+  </div>
+</section>
+
+<section id="sub-mv" class="plan">
+  <div class="flex">
+    <div class="img-wrap pc-only">
+      <img src="<?php echo $wp_url ?>/lib/images/plan/mv/mv.png" alt="メインビジュアル">
+    </div>
+    <div class="ttl">
+      <div class="ttl-wrap">
+        <div class=""><p>月々1,980円〜</p></div>
+        <div class=""><p>はじめられる</p></div>
+        <div class=""><p>本格資格講座</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="plan" class="mt-5">
   <div class="wrap">
     <ul>
       <li>

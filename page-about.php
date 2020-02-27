@@ -16,10 +16,12 @@ get_header(); ?>
       <img src="<?php echo $wp_url ?>/lib/images/about/mv/mv.png" alt="メインビジュアル">
     </div>
     <div class="ttl">
-      <div class=""><p>いつでも</p></div>
-      <div class=""><p>どこでも</p></div>
-      <div class=""><p>学べる</p></div>
-      <div class=""><p>最新のEラーニング</p></div>
+      <div class="ttl-wrap">
+        <div class=""><p>いつでも</p></div>
+        <div class=""><p>どこでも</p></div>
+        <div class=""><p>学べる</p></div>
+        <div class=""><p>最新のEラーニング</p></div>
+      </div>
     </div>
   </div>
 </section>
