@@ -60,7 +60,8 @@ SPヘッダー
   align-items: center;
   justify-content: center;
   height: 50px;
-  border-radius: 10px
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 .logo {
@@ -268,15 +269,33 @@ PCヘッダー
 MV
 ---------------------------------------*/
 #mv {
-  height: 750px;
+  height: 640px;
   background-image: url(../images/top/mv/mv_sp.png);
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 0 0
 }
+
+#mv .img-wrap {
+  width: 260px;
+}
+
+#mv .img-wrap img {
+  width: 100%;
+}
+
+
 
 @media(min-width:1025px) {
   #mv {
     background-image: url(../images/top/mv/mv_pc.png);
     background-size: cover;
+    height: 750px;
+  }
+  #mv .img-wrap {
+    width: 320px;
   }
 }
 
@@ -302,6 +321,6 @@ MV
 
 @media(min-width:1025px) {
   .fix-btn {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
   }

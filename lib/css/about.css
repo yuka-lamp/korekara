@@ -15,8 +15,7 @@
   font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
   font-size: 4rem;
   color: #F9F7F7;
-  width: 25%;
-  margin: 0;
+  margin: 0 2rem 0 0 ;
   display: unset;
 }
 
@@ -66,6 +65,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 4rem
   }
 
   #point ul li:nth-child(2) {
@@ -87,23 +87,23 @@
 
   #point .img-wrap {
     height: 326px;
-    width: 100%
+    width: 100%;
   }
 
   #point ul li:nth-child(1) .img-wrap {
-    background: url('../images/about/point_01_sp.png');
+    background: url('../images/about/point_01_pc.png');
     background-size: cover;
     background-position: center;
   }
 
   #point ul li:nth-child(2) .img-wrap {
-    background: url('../images/about/point_02_sp.png');
+    background: url('../images/about/point_02_pc.png');
     background-size: cover;
     background-position: center;
   }
 
   #point ul li:nth-child(3) .img-wrap {
-    background: url('../images/about/point_03_sp.png');
+    background: url('../images/about/point_03_pc.png');
     background-size: cover;
     background-position: center;
   }

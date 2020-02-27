@@ -30,7 +30,7 @@ get_header(); ?>
 
 <section id="top-service" class="bg-gray pt-4">
   <div class="wrap">
-    <h2 class="ttl2"><span class="maker">試験対策講座について</span></h2>
+    <h2 class="ttl2 mb-2"><span class="maker">試験対策講座について</span></h2>
     <ul class="slide_01">
       <li>
         <img src="<?php echo $wp_url ?>/lib/images/top/slide/01.png" alt="画面イメージ">
@@ -42,7 +42,7 @@ get_header(); ?>
         <img src="<?php echo $wp_url ?>/lib/images/top/slide/01.png" alt="画面イメージ">
       </li>
     </ul>
-    <div class="txt-wrap">
+    <div class="txt-wrap conma-txt">
       <p>京進eラーニング保育士講座では、9科目の基本を押さえたオリジナル学習教材とプロ講師による講義動画を24時間受講可能。スマホやパソコンさえ あればスキマ時間で学習できます。</p>
     </div>
     <div class="btn">

@@ -2,8 +2,20 @@
 #top-about
 ---------------------------------------*/
 
-#top-about {
+#top-about h2 {
+  position: relative;
+}
 
+#top-about h2::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top:-50px;
+  width: 110px;
+  height: 171px;
+  background: url('../images/top/about_bg.png');
+  background-size: cover;
+  z-index: -1
 }
 
 #top-about .img-wrap {
@@ -60,7 +72,7 @@
   right: 0
 }
 
-#top-service .txt-wrap {
+#top-service .conma-txt {
   background: #fff;
   padding: 2rem 1rem;
   border-radius: 10px;
@@ -68,13 +80,13 @@
   width: 345px
 }
 
-#top-service .txt-wrap p {
+#top-service .conma-txt p {
   margin-bottom: 0;
   position: relative;
   line-height: 1.4rem;
 }
 
-#top-service .txt-wrap p::before {
+#top-service .conma-txt p::before {
   content: url('../images/top/conma.png');
   position: absolute;
   top: -2.5rem;

@@ -99,7 +99,9 @@ $wp_url = get_template_directory_uri(); ?>
 <main>
   <?php if (is_home() || is_front_page()): ?>
   <div id="mv">
-
+    <div class="img-wrap">
+      <img src="<?php echo $wp_url ?>/lib/images/top/mv/mv_ttl.png" alt="スマホひとつで保育士筆記試験対策">
+    </div>
   </div>
 <?php else: ?>
 

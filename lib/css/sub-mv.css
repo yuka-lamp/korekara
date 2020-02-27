@@ -1,0 +1,111 @@
+/*---------------------------------------
+#page-ttl
+---------------------------------------*/
+#page-ttl {
+  width: 100%;
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 2rem
+}
+
+#page-ttl p {
+  font-size: 14px;
+  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  text-transform: uppercase;
+  color: #E95283;
+  margin: 0
+}
+
+@media(min-width:1025px) {
+  #page-ttl p {
+    font-size: 18px;
+  }
+  #page-ttl {
+    margin-top: 170px;
+  }
+}
+
+/*---------------------------------------
+#sub-mv
+---------------------------------------*/
+#sub-mv {
+  background: url('../images/about/mv/mv.png');
+  background-position: left;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-top: 2rem
+}
+
+#sub-mv::after {
+  content: '';
+  width: 110px;
+  height: 110px;
+  background: url('../images/about/mv/mv_stanp.png');
+  background-size: cover;
+  position: absolute;
+  right: -5px;
+  top: -30px
+}
+
+#sub-mv .ttl {
+  position: absolute;
+  left: 15px;
+  bottom: -30px
+}
+
+#sub-mv .ttl>div {
+  display: block;
+}
+
+
+
+#sub-mv .ttl p {
+  margin: 0;
+  display: inline-block;
+  border-bottom: 3px dotted #000;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+@media(min-width:1025px) {
+  #sub-mv {
+    background: transparent !important;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    height: 380px
+  }
+
+  #sub-mv::after {
+    width: 130px;
+    height: 130px;
+  }
+
+  #sub-mv .flex {
+    display: flex;
+    align-items: baseline;
+  }
+
+  #sub-mv .img-wrap {
+    width: 70%;
+    height: 380px;
+  }
+
+  #sub-mv .img-wrap img {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #sub-mv .ttl {
+    position: relative;
+    bottom: 2rem;
+    left: -2rem;
+  }
+  #sub-mv .ttl p {
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 4px
+  }
+}

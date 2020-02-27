@@ -3,7 +3,28 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
 
-<section id="point" class="mt-3">
+<section id="page-ttl" class="about">
+  <div class="wrap">
+    <p>- about -</p>
+    <h2>これから保育士とは</h2>
+  </div>
+</section>
+
+<section id="sub-mv" class="about">
+  <div class="flex">
+    <div class="img-wrap pc-only">
+      <img src="<?php echo $wp_url ?>/lib/images/about/mv/mv.png" alt="メインビジュアル">
+    </div>
+    <div class="ttl">
+      <div class=""><p>いつでも</p></div>
+      <div class=""><p>どこでも</p></div>
+      <div class=""><p>学べる</p></div>
+      <div class=""><p>最新のEラーニング</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="point" class="mt-5">
   <div class="wrap">
     <ul>
       <li class="mb-2">
