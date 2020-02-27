@@ -10,14 +10,7 @@ get_header(); ?>
   </div>
 </section>
 
-<section id="page-ttl" class="about">
-  <div class="wrap">
-    <p>- system -</p>
-    <h2>機能紹介</h2>
-  </div>
-</section>
-
-<section id="sub-mv" class="plan">
+<section id="sub-mv" class="system">
   <div class="flex">
     <div class="img-wrap pc-only">
       <img src="<?php echo $wp_url ?>/lib/images/system/mv/mv.png" alt="メインビジュアル">
@@ -33,7 +26,7 @@ get_header(); ?>
 </section>
 
 
-<section id="system-about-01" class="pt-4 mb-5">
+<section id="system-about-01" class="pt-4 mb-5 mt-3">
   <div class="wrap">
     <p class="txt-c">これまでの学習ノウハウを生かした</p>
     <h2 class="ttl2"><span class="maker">脳科学に基づく得点UP学習法！</span></h2>
@@ -52,18 +45,112 @@ get_header(); ?>
       <div class="img-wrap">
         <img src="<?php echo $wp_url ?>/lib/images/system/about_02.png" alt="学びのプロがあなたの資格取得をサポート">
       </div>
-      <div class="txt-c mb-1 mt-1">
-        <img src="<?php echo $wp_url ?>/lib/images/system/kyoshin_logo.png" alt="京進">
+      <div class="txt-wrap">
+        <div class="txt-c mb-1 mt-1">
+          <img src="<?php echo $wp_url ?>/lib/images/system/kyoshin_logo.png" alt="京進">
+        </div>
+        <p class="">学習塾、英会話教室、日本語学校、保育園など、幼児から小学生・中学生・高校生・社会人までを対象に教育サービスを提供する総合教育企業。保育園は認可保育園を中心に全国で73園運営中。</p>
       </div>
-      <p class="">学習塾、英会話教室、日本語学校、保育園など、幼児から小学生・中学生・高校生・社会人までを対象に教育サービスを提供する総合教育企業。保育園は認可保育園を中心に全国で73園運営中。</p>
     </div>
   </div>
 </section>
 
-<section id="system" class="bg-gray pt-4 mb-3">
-  <div class="wrap">
-    <h2 class="ttl2">どうやって<br><span class="maker">これから保育士</span>で合格したの？</h2>
+<div class="flow ttl-img">
+  <div class="ttl-img-bg">
+    <img src="<?php echo $wp_url ?>/lib/images/top/icon_service.png" alt="service">
+    <p>system</p>
+  </div>
+</div>
 
+<section id="system" class="bg-gray mb-3">
+  <div class="wrap">
+    <h2 class="ttl2"><span class="maker">機能一覧</span></h2>
+    <ul class="mt-2">
+      <li>
+        <div class="ttl">
+          <h3>インプット！重要テーマ</h3>
+          <img src="<?php echo $wp_url ?>/lib/images/system/icon_01.png" alt="サービスアイコン">
+        </div>
+        <div class="img-wrap">
+          <img src="<?php echo $wp_url ?>/lib/images/system/01.png" alt="画面イメージ">
+        </div>
+        <div class="txt-wrap conma-txt">
+          <p>講師による重要テーマのポイント講義動画です。試験に出題されやすい論点を丁寧に解説します。学習を始めるにあたりご視聴ください。1動画10分で構成されており、動画の再生速度も変えられます。（0.5倍速、1 倍速、1.5 倍速、2 倍速）</p>
+        </div>
+      </li>
+      <li>
+        <div class="ttl">
+          <h3>インプット！重要過去問</h3>
+          <img src="<?php echo $wp_url ?>/lib/images/system/icon_02.png" alt="サービスアイコン">
+        </div>
+        <div class="img-wrap">
+          <img src="<?php echo $wp_url ?>/lib/images/system/02.png" alt="画面イメージ">
+        </div>
+        <div class="txt-wrap conma-txt">
+          <p>重要過去問を解答するにあたって、知っておくべきポイントを明確に解説します。</p>
+        </div>
+      </li>
+      <li>
+        <div class="ttl">
+          <h3>アウトプット！一問一答</h3>
+          <img src="<?php echo $wp_url ?>/lib/images/system/icon_03.png" alt="サービスアイコン">
+        </div>
+        <div class="img-wrap">
+          <img src="<?php echo $wp_url ?>/lib/images/system/03.png" alt="画面イメージ">
+        </div>
+        <div class="txt-wrap conma-txt">
+          <p>試験によく出る論点について〇× で解答する問題集です。学習開始日から試験日まで、いつのタイミングに解いても効果的です。間違えても次に進んで全部正解になるまで、繰り返し問題演習をします。科目別問題に加え、保育所保育指針・関連法令・人名の問題も用意しています。</p>
+        </div>
+      </li>
+      <li>
+        <div class="ttl">
+          <h3>アウトプット！過去問</h3>
+          <img src="<?php echo $wp_url ?>/lib/images/system/icon_03.png" alt="サービスアイコン">
+        </div>
+        <div class="img-wrap">
+          <img src="<?php echo $wp_url ?>/lib/images/system/04.png" alt="画面イメージ">
+        </div>
+        <div class="txt-wrap conma-txt">
+          <p>過去７年間の過去問から厳選された過去問題集です。科目の総仕上げに繰り返し解いて本試験に臨みましょう。</p>
+        </div>
+      </li>
+      <li>
+        <div class="ttl">
+          <h3>得点アップのツボ</h3>
+          <img src="<?php echo $wp_url ?>/lib/images/system/icon_04.png" alt="サービスアイコン">
+        </div>
+        <div class="img-wrap">
+          <img src="<?php echo $wp_url ?>/lib/images/system/05.png" alt="画面イメージ">
+        </div>
+        <div class="txt-wrap conma-txt">
+          <p>試験の頻出項目、正解を導き得点を確実なものにするために暗記しておきたい事項や覚えるコツ等を説明しています。</p>
+        </div>
+      </li>
+      <li>
+        <div class="ttl">
+          <h3>重要テーマ資料集</h3>
+          <img src="<?php echo $wp_url ?>/lib/images/system/icon_05.png" alt="サービスアイコン">
+        </div>
+        <div class="img-wrap">
+          <img src="<?php echo $wp_url ?>/lib/images/system/06.png" alt="画面イメージ">
+        </div>
+        <div class="txt-wrap conma-txt">
+          <p>覚えておくべき要点チェックポイント（人名、用語、値、西暦和暦の年代、月齢、パーセンテージ（％）など）をまとめています。</p>
+        </div>
+      </li>
+      <li>
+        <div class="ttl">
+          <h3>ドリームツリー</h3>
+          <img src="<?php echo $wp_url ?>/lib/images/system/icon_05.png" alt="サービスアイコン">
+        </div>
+        <div class="img-wrap">
+          <img src="<?php echo $wp_url ?>/lib/images/system/07.png" alt="画面イメージ">
+        </div>
+        <div class="txt-wrap conma-txt">
+          <p>夢を実現するために、目標を強くイメージし、計画を立て、試行錯誤しながら継続して実行するために是非お役立てください。</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </section>
 

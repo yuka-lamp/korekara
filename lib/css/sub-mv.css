@@ -39,10 +39,14 @@
 
 #sub-mv.plan {
   background: url('../images/plan/mv/mv.png');
+  background-position: right;
+  background-size: cover;
 }
 
 #sub-mv.system {
   background: url('../images/system/mv/mv.png');
+  background-position: center;
+  background-size: cover;
 }
 
 #sub-mv::after {
@@ -54,6 +58,16 @@
   position: absolute;
   right: -5px;
   top: -30px
+}
+
+#sub-mv.plan::after {
+  background: url('../images/plan/mv/mv_stanp.png');
+  background-size: cover;
+}
+
+#sub-mv.system::after {
+  background: url('../images/system/mv/mv_stanp.png');
+  background-size: cover;
 }
 
 #sub-mv .ttl {
