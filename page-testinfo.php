@@ -81,7 +81,7 @@ get_header(); ?>
 
 <div class="ttl-img schedule">
   <div class="ttl-img-bg">
-    <img src="<?php echo $wp_url ?>/lib/images/testinfo/icon_schedule.png" alt="schedule">
+    <img src="<?php echo $wp_url ?>/lib/images/testinfo/icon_schedule.svg" alt="schedule">
     <p>schedule</p>
   </div>
 </div>
@@ -99,7 +99,7 @@ get_header(); ?>
         <div class="img-wrap">
           <img src="<?php echo $wp_url ?>/lib/images/testinfo/01.png" alt="合格までの様子">
         </div>
-        <p>知識をインプットしたあとはひたすら一問一答!間違った問題は正解するまで解き続けました。スマホでできるので、ゲーム感覚で楽しく勉強できました。</p>
+        <p>保育士の知識は全くゼロの状態だったので、まずは動画で基本的なポイントを学びました。 実際に先生に教えてもらっている感覚で勉強ができました。</p>
       </li>
       <li>
         <div class="ttl">
