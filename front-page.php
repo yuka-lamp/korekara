@@ -23,7 +23,7 @@ get_header(); ?>
 
 <div class="ttl-img">
   <div class="ttl-img-bg">
-    <img src="<?php echo $wp_url ?>/lib/images/top/icon_service.png" alt="service">
+    <img src="<?php echo $wp_url ?>/lib/images/top/icon_service.svg" alt="service">
     <p>service</p>
   </div>
 </div>
@@ -54,7 +54,7 @@ get_header(); ?>
 <section id="voice" class="mb-3 mt-3">
   <div class="wrap">
     <div class="ttl-img">
-      <img src="<?php echo $wp_url ?>/lib/images/top/icon_achie.png" alt="voice">
+      <img src="<?php echo $wp_url ?>/lib/images/top/icon_achie.svg" alt="voice">
       <p>achievement</p>
     </div>
     <h2 class="ttl2 mb-2"><span class="maker">合格実績</span></h2>

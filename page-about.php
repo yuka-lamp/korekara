@@ -80,7 +80,7 @@ get_header(); ?>
 
 <div class="ttl-img">
   <div class="ttl-img-bg">
-    <img src="<?php echo $wp_url ?>/lib/images/about/icon_feature.png" alt="feature">
+    <img src="<?php echo $wp_url ?>/lib/images/about/icon_feature.svg" alt="feature">
     <p>feature</p>
   </div>
 </div>
@@ -118,7 +118,7 @@ get_header(); ?>
 <section id="teacher" class="mb-3">
   <div class="wrap">
     <div class="ttl-img">
-      <img src="<?php echo $wp_url ?>/lib/images/about/icon_teacher.png" alt="feature">
+      <img src="<?php echo $wp_url ?>/lib/images/about/icon_teacher.svg" alt="feature">
       <p>teacher</p>
     </div>
     <h2 class="ttl2 mb-2"><span class="maker">講師紹介</span></h2>

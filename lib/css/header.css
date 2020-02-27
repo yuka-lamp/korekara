@@ -165,7 +165,7 @@ PCヘッダー
 ---------------------------------------*/
 #pc-header {
   display: none;
-  padding: 0 0 0 2.5%;
+  margin: 0 0 0 2.5%;
   width: 95%;
   box-sizing: border-box;
   position: fixed;
@@ -209,13 +209,13 @@ PCヘッダー
 }
 
 #pc-header .content>ul:nth-child(2) li {
-  margin: 0 1rem 0 0
+  margin: 0 1.2rem 0 0
 }
 
 #pc-header .content>ul:nth-child(2) li a {
   font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   color: #E95283;
   font-weight: bold;
@@ -223,10 +223,11 @@ PCヘッダー
 
 #pc-header .content>ul:nth-child(2) li a span {
   display: block;
-  font-size: .9rem;
+  font-size: .75rem;
   font-weight: normal;
   color: #333;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  line-height: 20px;
 }
 
 #pc-header .content ul:nth-child(3) {
