@@ -1,0 +1,142 @@
+/*---------------------------------------
+#info
+---------------------------------------*/
+#info.wrap {}
+
+#info .table-01 {
+  width: 100%
+}
+
+#info .pnk_bg {
+  background: #FCE4EB
+}
+
+#info>.wrap>div {
+  margin-bottom: 2rem
+}
+
+#info .table-01 dl {
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  background: #E95283;
+  margin-bottom: 1rem
+}
+
+#info .table-01 dt {
+  font-weight: bold;
+  display: block;
+  padding: 1rem;
+  color: #fff
+}
+
+#info .table-01 dt::after {
+  content: '+';
+  font-size: 2rem;
+  color: #E6EBE1;
+  position: absolute;
+  right: 10px;
+  top: 3px
+}
+
+#info .table-01 dd {
+  background: #fff;
+  padding: 2rem 1rem;
+  display: none;
+  font-size: 0.9rem
+}
+
+#info .table-01 dd h3 {
+  padding-bottom: 10px;
+  font-size: 1rem;
+  border-bottom: 2px solid #E95283;
+}
+
+/*---*/
+#info .table-02 dl {
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  border-top: 1px solid #E95283;
+  margin-bottom: 1rem
+}
+
+#info .table-02 dt {
+  font-weight: bold;
+  display: block;
+  padding: .5rem 1rem;
+  color: #E95283;
+  border-bottom: 1px solid #E95283;
+}
+
+#info .table-02 dt::after {
+  content: '+';
+  font-size: 2rem;
+  color: #E95283;
+  position: absolute;
+  right: 10px;
+  top: -5px
+}
+
+#info .table-02 dd {
+  padding: 2rem 1rem;
+  display: none;
+  font-size: 0.9rem
+}
+
+/*---------------------------------------
+#schedule
+---------------------------------------*/
+.schedule.ttl-img {
+  margin: -3rem 0 0 0;
+}
+
+#schedule ul li {
+  background: #fff;
+  border-radius: 10px;
+}
+
+#schedule ul li .ttl {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F9F7F7;
+}
+
+#schedule ul li .ttl h3 {
+  padding: 1rem;
+  margin: 0
+}
+
+#schedule ul li .ttl p {
+  background: #E95283;
+  color: #fff;
+  padding: 1rem 0;
+  font-size: 12px;
+  text-align: center;
+  width: 70px;
+  margin: 0
+}
+
+#schedule ul li .ttl span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#schedule ul li p {
+  line-height: 1.2rem;
+  padding: 2rem
+}
+
+@media(min-width:1025px) {
+  #schedule ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #schedule ul li {
+    width: 32.5%;
+    margin-bottom: 1rem
+  }
+}

@@ -12,13 +12,6 @@ campaign
   position: relative;
 }
 
-#campaign>.wrap>div::after {
-  content: url('');
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
 #campaign>.wrap>div>.img-wrap {
   border-radius: 10px 10px 0 0
 }

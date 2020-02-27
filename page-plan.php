@@ -7,7 +7,7 @@ get_header(); ?>
   <div class="wrap">
     <ul>
       <li>
-        <a href="#">
+        <a href="https://kyoshin-korekara.etudes.jp/jp/top/course_group_detail/D664E30F-4A76-4CEC-81B6-1CEC6DF8C0CD" target="_blank">
           <div class="txt-wrap">
             <p>まずは14日間お試し！</p>
             <h3>受講体験コース</h3>
@@ -17,7 +17,7 @@ get_header(); ?>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://kyoshin-korekara.etudes.jp/jp/top/course_group_detail/F8C3E264-4F3E-4294-8A63-C91D54022F87" target="_blank">
           <div class="txt-wrap">
             <p>今日から本格的に！</p>
             <h3>受講本格コース</h3>

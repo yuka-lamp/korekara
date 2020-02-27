@@ -32,14 +32,14 @@ get_header(); ?>
           </dd>
         </dl>
         <dl class="ac">
-          <dt><?php the_field( 'year' ); ?>前期(<?php the_field( 'day_02_01' ); ?>,<?php the_field( 'day_02_02' ); ?>,<?php the_field( 'day_02_03' ); ?>)</dt>
+          <dt><?php the_field( 'year' ); ?>後期(<?php the_field( 'day_02_01' ); ?>,<?php the_field( 'day_02_02' ); ?>,<?php the_field( 'day_02_03' ); ?>)</dt>
           <dd>
-            <h3>前期(2回目)試験 筆記試験</h3>
+            <h3>後期(2回目)試験 筆記試験</h3>
             <h4><?php the_field( 'day_02_01' ); ?></h4>
             <div class="table"><?php the_field( 'timetable_02_01' ); ?></div>
             <h4><?php the_field( 'day_02_02' ); ?></h4>
             <div class="table"><?php the_field( 'timetable_02_02' ); ?></div>
-            <h3>前期(3回目)試験 筆記試験</h3>
+            <h3>後期(2回目)試験 筆記試験</h3>
             <p><?php the_field( 'day_02_03' ); ?></p>
           </dd>
         </dl>

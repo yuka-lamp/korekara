@@ -21,6 +21,10 @@ $wp_url = get_template_directory_uri(); ?>
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/voice.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/plan.css">
 <link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/system.css">
+<link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/faq.css">
+<link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/news.css">
+<link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/contact.css">
+<link rel="stylesheet" href="<?php echo $wp_url ?>/lib/css/article.css">
 <?php wp_head(); ?>
 <?php if (!is_user_logged_in()): ?>
 <!-- ここにGAトラッキングタグ -->
@@ -93,6 +97,10 @@ $wp_url = get_template_directory_uri(); ?>
 
 <!-- メインコンテンツ -->
 <main>
+  <?php if (is_home() || is_front_page()): ?>
   <div id="mv">
 
   </div>
+<?php else: ?>
+
+<?php endif; ?>
