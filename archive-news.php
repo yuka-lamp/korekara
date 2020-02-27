@@ -5,12 +5,12 @@ get_header(); ?>
 
 <section id="page-ttl">
   <div class="wrap">
-    <p>- voice -</p>
-    <h2>合格者の声</h2>
+    <p>- news -</p>
+    <h2>お知らせ</h2>
   </div>
 </section>
 
-<section id="voice" class="sec">
+<section id="news" class="mb-5">
 <div class="wrap">
   <ul class="list">
     <?php if (have_posts()): while (have_posts()):
@@ -19,12 +19,12 @@ get_header(); ?>
     if (mb_strlen($t, 'UTF-8') > 28) {
         $t = mb_substr($t, 0, 28, 'UTF-8').'…';
     }
-    $t =
+    $day = get_the_date();
     ?>
     <li>
       <a href="<?php the_permalink(); ?>" class="">
         <div class="txt-wrap">
-        <p><?php the_date(); ?></p>
+        <p><?php echo $day; ?></p>
         <h3><?php echo $t; ?></h3>
         </div>
       </a>

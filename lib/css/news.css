@@ -1,73 +1,56 @@
 /*------------------------------------------------------
-FAQ
+#news
 ------------------------------------------------------*/
-#faq h2 {
-  font-size: 1.15rem;
-  width: 100%
+
+#news {
+  margin: 0 auto 4rem auto
 }
 
-#faq .table {
-  width: 100%
-}
-
-#faq>.wrap>div {
-  margin-bottom: 2rem
-}
-
-#faq dl:first-child {
-  border-top: 1px solid #EBF0E6;
-}
-
-#faq dl {
+#news ul {
   margin: 0;
-  border-bottom: 1px solid #EBF0E6;
+  border-top: 1px solid #EBF0E6;
   cursor: pointer;
   position: relative;
 }
 
-#faq dl dt {
+#news ul li {
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 1rem 3rem;
+  padding: 1rem;
+  border-bottom: 1px solid #EBF0E6;
 }
 
-#faq dl dd {
-  margin: 1rem;
-  display: none;
-  font-size: 0.9rem
+#news ul li h3, #news ul li p {
+  display: inline-block;
+  margin: 0;
+  color: #333
 }
 
-#faq dl::before {
-  font-family: 'Fredoka One', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
-  content: 'Q';
-  font-size: 22px;
-  margin-right: 1rem;
-  color: #41A9CC;
-  ;
-  position: absolute;
-  left: 10px;
-  top: 12px
+#news ul li h3 {
+  font-size: 1rem!important;
+  display: block;
 }
 
-#faq dl::after {
-  content: '+';
-  font-size: 2rem;
-  color: #41A9CC;
-  position: absolute;
-  right: 15px;
-  top: 3px
+#news ul li p {
+  padding: 0 10px 0 0;
+  color: #E95283;
 }
 
-/*--------------------------------------------レスポンシブ*/
-@media(max-width:768px) {
-  /*--スマホよこ--*/
-}
-
-@media(max-width:480px) {
-  #faq dl {
+@media(min-width:1025px) {
+  #news ul {
     margin: 0;
     border-bottom: 1px solid #EBF0E6;
     cursor: pointer;
+  }
+  #news {
+    width: 60%;
+  }
+  #news ul li {
+    padding: 1rem 3rem;
+  }
+  #news ul li h3 {
+    display: inline-block;
+    padding: 0 0 0 1rem;
   }
 }

@@ -54,7 +54,7 @@ $wp_url = get_template_directory_uri(); ?>
             <ul class="gnav__menu">
               <li><a href="<?php echo $home ?>/about">about<span>これから…とは</span></a></li>
               <li><a href="<?php echo $home ?>/testinfo">testinfo<span>試験情報</span></a></li>
-              <li><a href="<?php echo $home ?>/schedule">schedule<span>合格スケジュール</span></a></li>
+              <li><a href="<?php echo $home ?>/testinfo#schedule">schedule<span>合格スケジュール</span></a></li>
               <li><a href="<?php echo $home ?>/voice">voice<span>受講者の声</span></a></li>
               <li><a href="<?php echo $home ?>/plan">plan<span>料金プラン</span></a></li>
               <li><a href="<?php echo $home ?>/system">system<span>機能紹介</span></a></li>
@@ -76,7 +76,7 @@ $wp_url = get_template_directory_uri(); ?>
       <ul>
         <li><a href="<?php echo $home ?>/about">about<span>これから…とは</span></a></li>
         <li><a href="<?php echo $home ?>/testinfo">testinfo<span>試験情報</span></a></li>
-        <li><a href="<?php echo $home ?>/schedule">schedule<span>合格スケジュール</span></a></li>
+        <li><a href="<?php echo $home ?>/testinfo#schedule">schedule<span>合格スケジュール</span></a></li>
         <li><a href="<?php echo $home ?>/voice">voice<span>受講者の声</span></a></li>
         <li><a href="<?php echo $home ?>/plan">plan<span>料金プラン</span></a></li>
         <li><a href="<?php echo $home ?>/system">system<span>機能紹介</span></a></li>
