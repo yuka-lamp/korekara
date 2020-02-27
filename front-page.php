@@ -51,4 +51,39 @@ get_header(); ?>
   </div>
 </section>
 
+<section id="voice" class="mb-3 mt-3">
+  <div class="wrap">
+    <div class="ttl-img">
+      <img src="<?php echo $wp_url ?>/lib/images/top/icon_achie.png" alt="voice">
+      <p>achievement</p>
+    </div>
+    <h2 class="ttl2 mb-2"><span class="maker">合格実績</span></h2>
+    <ul class="list">
+      <?php
+      $arg = array(
+        'posts_per_page' => 3,
+        'orderby' => 'date',
+        'order' => 'DESC',
+        'post_type' => 'voice',
+      );
+      $posts = get_posts($arg);
+      if ($posts): ?>
+      <?php foreach ($posts as $post): setup_postdata($post);
+      ?>
+      <li>
+        <h3><span class="maker"><?php the_title(); ?></span></h3>
+        <p><?php the_content(); ?></p>
+        <div class="user">
+          <p><?php the_field( 'name' ); ?></p>
+        </div>
+      </li>
+    <?php endforeach; ?>
+    <?php endif; wp_reset_postdata(); ?>
+    </ul>
+    <div class="btn">
+      <a href="<?php echo $home ?>/voice">Read more</a>
+    </div>
+  </div>
+</section>
+
 <?php get_footer();

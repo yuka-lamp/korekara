@@ -1,0 +1,68 @@
+/*---------------------------------------
+#voice
+---------------------------------------*/
+#voice ul li {
+  background: #F9F7F7;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem
+}
+
+#voice ul li:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #fff #fff #E5DEDE #E5DEDE;
+  background: #E5DEDE;
+  display: block;
+  width: 0;
+  transform: rotate(90deg);
+}
+
+#voice ul li h3 {
+  margin-bottom: 1rem
+}
+
+#voice ul li p {
+  line-height: 1.2rem;
+  margin: 0
+}
+
+#voice ul li .user {
+  text-align: right;
+}
+
+#voice ul li .user p {
+  text-align: right;
+  display: inline-block;
+  margin-top: .5rem;
+  position: relative;
+}
+
+#voice ul li .user p::before {
+  content: '';
+  width: 28px;
+  height: 3px;
+  background: url('../images/common/btn_dot.png');
+  background-size: cover;
+  position: absolute;
+  top: 7px;
+  left: -40px;
+}
+
+@media(min-width:1025px) {
+  #voice ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #voice ul li {
+    width: 32%;
+    padding: 3rem 2rem;
+  }
+}

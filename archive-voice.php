@@ -10,24 +10,20 @@ get_header(); ?>
   </div>
 </section>
 
-<section id="voice" class="sec">
+<section id="voice" class="mb-3 mt-2">
 <div class="wrap">
   <ul class="list">
     <?php if (have_posts()): while (have_posts()):
     the_post();
     $t = get_the_title();
-    if (mb_strlen($t, 'UTF-8') > 28) {
-        $t = mb_substr($t, 0, 28, 'UTF-8').'…';
-    }
-    $t =
+    $text = get_the_content();
     ?>
     <li>
-      <a href="<?php the_permalink(); ?>" class="">
-        <div class="txt-wrap">
-        <p><?php the_date(); ?></p>
-        <h3><?php echo $t; ?></h3>
-        </div>
-      </a>
+      <h3><span class="maker"><?php echo $t; ?></span></h3>
+      <p><?php echo $text; ?></p>
+      <div class="user">
+        <p><?php the_field( 'name' ); ?></p>
+      </div>
     </li>
     <?php endwhile; endif; ?>
   </ul>
