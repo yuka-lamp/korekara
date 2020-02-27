@@ -81,7 +81,7 @@ SPヘッダー
 }
 
 .fat-nav__wrapper {
-  padding: 5rem 15px 0 15px
+  padding: 3rem 15px 0 15px
 }
 
 .gnav, .gnav__wrap {
@@ -165,8 +165,8 @@ PCヘッダー
 ---------------------------------------*/
 #pc-header {
   display: none;
-  padding: 0 100px;
-  width: 100%;
+  padding: 0 0 0 2.5%;
+  width: 95%;
   box-sizing: border-box;
   position: fixed;
   top: 30px;
@@ -225,7 +225,8 @@ PCヘッダー
   display: block;
   font-size: .9rem;
   font-weight: normal;
-  color: #333
+  color: #333;
+  letter-spacing: 1px
 }
 
 #pc-header .content ul:nth-child(3) {

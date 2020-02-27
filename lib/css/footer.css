@@ -199,10 +199,14 @@ footer ul:nth-child(3) li a {
 }
 
 footer ul:nth-child(3) li::after {
-  content: url('../images/common/arrow_p.png');
+  content: '';
+  background: url('../images/common/arrow_p.png');
+  background-size: cover;
+  width: 8px;
+  height: 11px;
   position: absolute;
-  top: 2px;
-  right: 10px
+  top: 6px;
+  right: 13px
 }
 
 @media(min-width:1025px) {

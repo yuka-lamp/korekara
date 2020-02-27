@@ -87,7 +87,11 @@
 }
 
 .conma-txt p::before {
-  content: url('../images/top/conma.png');
+  content: '';
+  background: url('../images/top/conma.png');
+  background-size: cover;
+  width: 30px;
+  height: 22px;
   position: absolute;
   top: -2.5rem;
   left: 0

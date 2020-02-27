@@ -18,7 +18,7 @@ get_header(); ?>
 
 <section id="contact-form" class="pt-3 pb-3 mb-3">
 <div class="wrap">
-<?php echo do_shortcode('[contact-form-7 id="46" title="お問合せフォーム"]'); ?>
+<?php echo do_shortcode('[contact-form-7 id="86" title="お問い合せフォーム"]'); ?>
 </div>
 </section>
 
