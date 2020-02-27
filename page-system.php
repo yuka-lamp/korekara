@@ -57,7 +57,7 @@ get_header(); ?>
 
 <div class="flow ttl-img">
   <div class="ttl-img-bg">
-    <img src="<?php echo $wp_url ?>/lib/images/top/icon_service.png" alt="service">
+    <img src="<?php echo $wp_url ?>/lib/images/top/icon_service.svg" alt="service">
     <p>system</p>
   </div>
 </div>

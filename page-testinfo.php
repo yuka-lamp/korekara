@@ -34,7 +34,7 @@ get_header(); ?>
             <div class="table"><?php the_field( 'timetable_01_01' ); ?></div>
             <h4><?php the_field( 'day_01_02' ); ?></h4>
             <div class="table"><?php the_field( 'timetable_01_02' ); ?></div>
-            <h3>前期(1回目)試験 筆記試験</h3>
+            <h3>前期(1回目)試験 実技試験</h3>
             <p><?php the_field( 'day_01_03' ); ?></p>
           </dd>
         </dl>
@@ -46,7 +46,7 @@ get_header(); ?>
             <div class="table"><?php the_field( 'timetable_02_01' ); ?></div>
             <h4><?php the_field( 'day_02_02' ); ?></h4>
             <div class="table"><?php the_field( 'timetable_02_02' ); ?></div>
-            <h3>後期(2回目)試験 筆記試験</h3>
+            <h3>後期(2回目)試験 実技試験</h3>
             <p><?php the_field( 'day_02_03' ); ?></p>
           </dd>
         </dl>
@@ -81,7 +81,7 @@ get_header(); ?>
 
 <div class="ttl-img schedule">
   <div class="ttl-img-bg">
-    <img src="<?php echo $wp_url ?>/lib/images/testinfo/icon_schedule.png" alt="schedule">
+    <img src="<?php echo $wp_url ?>/lib/images/testinfo/icon_schedule.svg" alt="schedule">
     <p>schedule</p>
   </div>
 </div>
@@ -99,7 +99,7 @@ get_header(); ?>
         <div class="img-wrap">
           <img src="<?php echo $wp_url ?>/lib/images/testinfo/01.png" alt="合格までの様子">
         </div>
-        <p>知識をインプットしたあとはひたすら一問一答!間違った問題は正解するまで解き続けました。スマホでできるので、ゲーム感覚で楽しく勉強できました。</p>
+        <p>保育士の知識は全くゼロの状態だったので、まずは動画で基本的なポイントを学びました。 実際に先生に教えてもらっている感覚で勉強ができました。</p>
       </li>
       <li>
         <div class="ttl">
@@ -114,7 +114,7 @@ get_header(); ?>
       <li>
         <div class="ttl">
           <p>試験まで<span>2週間</span></p>
-          <h3>1問1答を繰り返す</h3>
+          <h3>一問一答を繰り返す</h3>
         </div>
         <div class="img-wrap">
           <img src="<?php echo $wp_url ?>/lib/images/testinfo/03.png" alt="合格までの様子">
