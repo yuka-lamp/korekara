@@ -25,7 +25,7 @@ get_header(); ?>
       <li><a href="<?php echo $home ?>/news">お知らせ</a></li>
       <li><a href="<?php echo $home ?>/faq">よくあるご質問</a></li>
     </ul>
-    <ul class="wrap mt-2 mb-2">
+    <ul>
       <li><a href="<?php echo $home ?>/pp">プライバシーポリシー</a></li>
       <li><a href="<?php echo $home ?>/term">利用規約</a></li>
       <li><a href="<?php echo $home ?>/law">特定商取引法に基づく表記</a></li>

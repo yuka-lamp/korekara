@@ -2,10 +2,45 @@
 #article
 ---------------------------------------*/
 
-#article {
-
+#article .wrap {
+  border-top: 2px solid #E95283;
+  padding: 15px!important
 }
 
-@media(min-width:1025px) {
+#article h2 {
+  padding: 10px;
+  background: #E6D8D8;
+  margin-bottom: 1rem
+}
 
+
+#article h3 {
+  padding: 10px;
+  font-size: 1rem;
+  border-bottom: 2px dotted #E6D8D8;
+}
+
+#article h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #000;
+}
+
+#article h4::before {
+  content: '●';
+  margin-right: 10px;
+  color: #E6D8D8;
+}
+
+#article dd  {
+  font-size: .9rem!important;
+  line-height: 2.1;
+}
+
+
+@media(min-width:1025px) {
+  #article .wrap {
+    padding: 2rem!important
+  }
 }
