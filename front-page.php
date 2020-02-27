@@ -36,10 +36,10 @@ get_header(); ?>
         <img src="<?php echo $wp_url ?>/lib/images/top/slide/01.png" alt="画面イメージ">
       </li>
       <li>
-        <img src="<?php echo $wp_url ?>/lib/images/top/slide/01.png" alt="画面イメージ">
+        <img src="<?php echo $wp_url ?>/lib/images/top/slide/02.png" alt="画面イメージ">
       </li>
       <li>
-        <img src="<?php echo $wp_url ?>/lib/images/top/slide/01.png" alt="画面イメージ">
+        <img src="<?php echo $wp_url ?>/lib/images/top/slide/03.png" alt="画面イメージ">
       </li>
     </ul>
     <div class="txt-wrap conma-txt">
